@@ -75,7 +75,7 @@
 	url = https://github.com/deanwilson/puppet-multitemplate
 [submodule "php"]
 	path = php
-	url = https://github.com/ricofehr/puppet-php
+	url = https://github.com/ndnurun/puppet-php
 [submodule "jdk_oracle"]
 	path = jdk_oracle
 	url = https://github.com/tylerwalts/puppet-jdk_oracle
@@ -84,7 +84,7 @@
 	url = https://github.com/voxpupuli/puppet-alternatives
 [submodule "sonarqube"]
 	path = sonarqube
-	url = https://github.com/ricofehr/puppet-sonarqube
+	url = https://github.com/ndnurun/puppet-sonarqube
 [submodule "jenkins"]
 	path = jenkins
-	url = https://github.com/ricofehr/puppet-jenkins
+	url = https://github.com/ndnurun/puppet-jenkins
