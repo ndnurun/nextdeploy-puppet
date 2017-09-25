@@ -706,7 +706,7 @@ Vagrant.configure("2") do |config|
   config.vm.define :nextdeploy, primary: true do |nextdeploy|
     nextdeploy.vm.hostname = "$NAME"
     nextdeploy.vm.box = "$OSBOX"
-    nextdeploy.vm.box_url = "http://imgs.nextdeploy.io/os/$OSBOX.box"
+    nextdeploy.vm.box_url = "http://imgs.nextdeploy.services-pm.fr/os/$OSBOX.box"
     nextdeploy.vm.provider :virtualbox do |virthost|
       virthost.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
       virthost.memory = 3072
